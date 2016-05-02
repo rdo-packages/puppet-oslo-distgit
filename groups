@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-257ea2090c2e3ac4992379cc4ae956e96c8bcc63	puppet/puppet-oslo-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+d23993e6d1405be818f3c5d537cf2b0a5177c8d1       	puppet/puppet-oslo-distgit-core
+257ea2090c2e3ac4992379cc4ae956e96c8bcc63        	puppet/puppet-oslo-distgit-ptl
+global:Registered-Users		Registered Users

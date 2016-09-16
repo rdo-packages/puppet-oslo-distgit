@@ -7,7 +7,7 @@ License:        Apache-2.0
 
 URL:            https://launchpad.net/puppet-oslo
 
-Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{version}.tar.gz
+Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
@@ -20,7 +20,7 @@ Requires:       puppet >= 2.7.0
 Puppet module for managing Oslo.* library
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +

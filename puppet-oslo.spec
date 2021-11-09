@@ -63,3 +63,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/oslo/
 %changelog
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-oslo/commit/056a1db5782709855b02bb47769a06457b03bae4
